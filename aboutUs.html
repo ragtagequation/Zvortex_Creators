@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zvortex Coders Team</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'VT323', monospace;
+            background-color: #121212;
+            color: #e0e0e0;
+            line-height: 1.6;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #1e1e1e;
+            border-bottom: 3px solid #00ff00;
+        }
+        h1 {
+            font-size: 36px;
+            color: #00ff00;
+            text-shadow: 2px 2px #ff00ff;
+        }
+        .team-members {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .team-member {
+            background-color: #1e1e1e;
+            border: 2px solid #00ff00;
+            border-radius: 10px;
+            padding: 15px;
+        }
+        .team-member img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #ff00ff;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 18px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #1e1e1e;
+            border-top: 3px solid #00ff00;
+            margin-top: 20px;
+        }
+        @media (min-width: 768px) {
+            .team-members {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .team-member {
+                width: calc(50% - 10px);
+            }
+        }
+        @media (min-width: 1024px) {
+            .team-member {
+                width: calc(33.33% - 13.33px);
+            }
+            h1 {
+                font-size: 48px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Zvortex Coders Team</h1>
+        <h2>
+            Welcome to ZVortex, where we’re all about good vibes, rad ideas, and a sprinkle of crazy genius! Our team is a trio of masterminds straight out of an 80s movie, each bringing their A-game with a side of quirky charm.</h2>
+    </header>
+    
+    <div class="container">
+        <div class="team-members">
+            <div class="team-member">
+                <img src="retro_adarsh.png" alt="Zvortex Character 1" loading="lazy">
+                <h2>Adarsh: CEO</h2>
+                <h3>The Visionary</h3>
+                <a href="https://www.instagram.com/adarssss_15/">Adarsh's Instagram handle</a>
+                <p>Meet Adarsh Aryamaan, our fearless leader, a guy with big dreams and even bigger hair (metaphorically, of course). When he's not busy surfing the cosmic waves of creativity, you’ll find him crafting plans that could rival any plot twist in a retro sci-fi flick. He’s the mastermind steering our spaceship, leading us toward success with a cool wink and a pair of imaginary aviator sunglasses.</p>
+            </div>
+            
+            <div class="team-member">
+                <img src="retro_rishabh.png" alt="Zvortex Character 2" loading="lazy">
+                <h2>Rishabh: Marketting head</h2>
+                <h3>The Charisma Connoisseur</h3>
+                <a href="https://www.instagram.com/rishabhmanjith/">Rishabh's Instagram handle</a>
+                <p>Rishabh "The Flash", our marketing wizard, is the guy who could sell ice to a polar bear—while doing the moonwalk. He’s got the charm of a game show host, and with his snappy ideas, he can make any campaign feel like it’s fresh out of a neon-lit arcade. Rishabh makes sure our brand shines brighter than a disco ball on Saturday night.</p>
+            </div>
+    
+            <div class="team-member">
+                <img src="retro_utkarsh.png" alt="Zvortex Character 3" loading="lazy">
+                <h2>Utkarsh: Technical Director</h2>
+                <h3>The Code Cowboy</h3>
+                <a href="https://www.instagram.com/utkarsh__ud/">Utkarsh's Instagram handle</a>
+                <p>Utkarsh "Byte King", our tech genius, is the one behind all those mind-blowing algorithms. If you need something fixed, coded, or debugged, Utkarsh got you covered faster than a cassette rewinds. He’s the ultimate mix of brains and geeky cool, rocking that old-school coding magic with a floppy disk in one hand and a soldering iron in the other.
+
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Zvortex Coders Team</p>
+    </footer>
+</body>
+</html>
